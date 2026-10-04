@@ -161,7 +161,7 @@ export function TickTickTick() {
              <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 ring-1 ring-white/10 shrink-0 shadow-lg">
                 <Image 
                   src={resolveAsset("avani-manoj.png")} 
-                  alt="Author portrait of R S Sreelakshmi" 
+                  alt="Author portrait of Avani Manoj" 
                   fill 
                   sizes="96px" 
                   unoptimized
@@ -173,20 +173,19 @@ export function TickTickTick() {
                   Written by
                 </span>
                 <span className="font-sans text-2xl sm:text-3xl tracking-tight text-white/90 mb-2">
-                  R S Sreelakshmi
+                  Avani Manoj
                 </span>
                 <span className="font-mono text-[9px] uppercase tracking-[0.15em] text-white/30">
-                  First year · Electronics & Communication
+                  Third year · Electrical & Electronics Engineering
                 </span>
              </div>
            </motion.div>
         </div>
       </div>
       
-      {/* Footer minimal */}
       <footer className="w-full border-t border-white/5 bg-[#080705] relative z-10">
         <div className="mx-auto max-w-[1440px] px-6 py-8 sm:px-10 lg:px-16 flex flex-col gap-4 font-mono text-[8px] sm:text-[9px] uppercase tracking-[0.2em] text-white/20 sm:flex-row sm:items-center sm:justify-between">
-          <span>Author · R S Sreelakshmi</span>
+          <span>Author · Avani Manoj</span>
         </div>
       </footer>
     </section>
