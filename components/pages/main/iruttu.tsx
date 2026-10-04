@@ -87,7 +87,7 @@ export function Iruttu() {
             <div className="h-full w-full overflow-hidden rounded-full">
               <Image 
                 src={resolveAsset("anirudh.webp")} 
-                alt="അനിരുദ്ധ് പി . ടി" 
+                alt="അനിരുദ്ധ് പി. ഡി" 
                 width={128} 
                 height={128} 
                 className="h-full w-full object-cover grayscale mix-blend-luminosity transition-all duration-500 hover:grayscale-0 hover:mix-blend-normal"
@@ -99,7 +99,7 @@ export function Iruttu() {
             Written by
           </span>
           <h3 className="font-serif text-2xl text-[#d4d4d4] md:text-4xl" lang="ml">
-            അനിരുദ്ധ് പി . ടി
+            അനിരുദ്ധ് പി. ഡി
           </h3>
           <p className="mt-2 font-sans text-sm tracking-widest uppercase text-[#d4d4d4]/50 md:text-base" lang="ml">
             മൂന്നാം വർഷം, ഇലക്ട്രോണിക്സ് &amp; കമ്യൂണികേഷൻ
