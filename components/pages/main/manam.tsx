@@ -89,7 +89,7 @@ export function Manam() {
                 <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-full grayscale mix-blend-multiply opacity-80 hover:opacity-100 hover:grayscale-0 transition-all duration-500">
                   <Image
                     src={resolveAsset("sefana-elizabeth-manam.png")}
-                    alt="Author portrait of Sefana Elizabeth"
+                    alt="Author portrait of Zephanah Elizabeth"
                     fill
                     sizes="96px"
                     unoptimized
@@ -101,7 +101,7 @@ export function Manam() {
                     Written by
                   </span>
                   <span className="font-sans text-3xl sm:text-4xl lg:text-5xl tracking-tight text-[#1b1915] mb-2 sm:mb-3 leading-none">
-                    Sefana Elizabeth
+                    Zephanah Elizabeth
                   </span>
                   <span className="font-mono text-[9px] uppercase tracking-[0.15em] text-[#1b1915]/40">
                     First year · Electronics & Communication Engineering
@@ -122,7 +122,7 @@ export function Manam() {
 
       <footer className="w-full border-t border-[#1b1915]/10">
         <div className="mx-auto max-w-[1440px] px-6 py-6 sm:px-10 lg:px-16 flex flex-col gap-2 font-mono text-[8px] uppercase tracking-[0.14em] text-[#1b1915]/45 sm:flex-row sm:items-center sm:justify-between sm:text-[9px]">
-          <span>Author · Sefana Elizabeth</span>
+          <span>Author · Zephanah Elizabeth</span>
         </div>
       </footer>
     </section>

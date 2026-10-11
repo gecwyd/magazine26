@@ -60,7 +60,7 @@ export function VersionZero() {
                   <div className="relative h-24 w-24 sm:h-32 sm:w-32 shrink-0 overflow-hidden rounded-full grayscale mix-blend-multiply opacity-80">
                     <Image
                       src={resolveAsset("sefana-elizabeth.png")}
-                      alt="Author portrait of Sefana Elizabeth"
+                      alt="Author portrait of Zephanah Elizabeth"
                       fill
                       sizes="128px"
                       unoptimized
@@ -72,7 +72,7 @@ export function VersionZero() {
                       Written by
                     </span>
                     <span className="font-sans text-3xl sm:text-5xl tracking-tight text-[#191713] leading-none mb-4">
-                      Sefana Elizabeth
+                      Zephanah Elizabeth
                     </span>
                     <span className="font-mono text-[9px] sm:text-[10px] uppercase tracking-[0.15em] text-[#191713]/50">
                       ECE · First year
@@ -118,7 +118,7 @@ export function VersionZero() {
 
       <footer className="w-full border-t border-[#191713]/10">
         <div className="mx-auto max-w-[1440px] px-6 py-6 sm:px-10 lg:px-16 flex flex-col gap-2 font-mono text-[8px] uppercase tracking-[0.14em] text-[#191713]/40 sm:flex-row sm:items-center sm:justify-between sm:text-[9px]">
-          <span>Author · Sefana Elizabeth</span>
+          <span>Author · Zephanah Elizabeth</span>
         </div>
       </footer>
     </section>

@@ -243,7 +243,7 @@ export function RootsAndWings() {
             <span className="block text-[0.62em] font-light normal-case italic tracking-normal text-[#c98a4b]">&amp; Wings</span>
           </h2>
           <div className="mt-10 flex items-center justify-between gap-6 border-t border-[#efe4d2]/15 pt-6">
-            <p className="text-lg italic text-[#efe4d2]/70 md:text-xl">by Sefana Elizabeth</p>
+            <p className="text-lg italic text-[#efe4d2]/70 md:text-xl">by Zephanah Elizabeth</p>
             <Label className="flex items-center gap-3 text-[#efe4d2]/50">
               Scroll
             </Label>
@@ -368,7 +368,7 @@ export function RootsAndWings() {
             <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full border border-[#2a2018]/15 md:h-20 md:w-20">
               <Image
                 src={resolveAsset("sefana-elizabeth.png")}
-                alt="Sefana Elizabeth"
+                alt="Zephanah Elizabeth"
                 fill
                 sizes="80px"
                 unoptimized
@@ -377,7 +377,7 @@ export function RootsAndWings() {
             </div>
             <div className="flex flex-col">
               <Label className="mb-1 text-[#2a2018]/50">Written by</Label>
-              <span className="text-2xl font-medium md:text-3xl">Sefana Elizabeth</span>
+              <span className="text-2xl font-medium md:text-3xl">Zephanah Elizabeth</span>
               <Label className="mt-1 text-[#b5561f]/70">1st Year · CSE</Label>
             </div>
           </Reveal>
