@@ -3,11 +3,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import {
-  ArrowDown,
   ArrowLeft,
   ArrowUpRight,
   Download,
-  Headphones,
   LoaderCircle,
   Pause,
   Play,
@@ -34,11 +32,6 @@ import styles from "./audio-book.module.css";
 const STORAGE_KEY = "adrishya-audio-book-v2";
 const FILTERS = ["All", "Stories", "Poetry", "Ideas", "Campus"] as const;
 const SPEEDS = [0.75, 1, 1.15, 1.25, 1.5, 1.75, 2];
-const GROOVES = [28, 36, 44, 52, 60, 68, 76, 84, 92];
-const WAVE = [
-  25, 40, 70, 45, 85, 55, 95, 35, 65, 90, 50, 80, 30, 60, 100, 45, 75, 35, 85,
-  55, 95, 40, 70, 50, 80, 35, 60,
-];
 
 export default function AudioBookPlayer() {
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -156,7 +149,7 @@ export default function AudioBookPlayer() {
       setBuffering(false);
       if (!(reason instanceof DOMException && reason.name === "AbortError"))
         setError(
-          "The audio couldn’t start. Try again, or download it to listen offline.",
+          "The audio couldn't start. Try again, or download it to listen offline.",
         );
     });
   }, [seek]);
@@ -354,44 +347,18 @@ export default function AudioBookPlayer() {
         <header className={styles.header}>
           <Link href="/" className={styles.back}>
             <ArrowLeft size={14} aria-hidden="true" />
-            <span>The magazine</span>
+            <span>Back</span>
           </Link>
-          <span className={styles.edition}>Sathva · GEC Wayanad · 2025–26</span>
-          <a href="#chapters" className={styles.jump}>
-            Browse chapters <ArrowDown size={13} aria-hidden="true" />
-          </a>
+          <span className={styles.edition}>Sathva · 2025–26</span>
         </header>
 
         <section className={styles.hero} aria-labelledby="audio-book-title">
-          <div className={styles.eyebrow}>
-            <Headphones size={14} aria-hidden="true" /> A different way to feel
-            the words
-          </div>
-          <h1 id="audio-book-title" className={styles.title}>
-            AUDIO{" "}
-            <span>
-              BOOK<span className={styles.titleDot}>.</span>
-            </span>
+          <h1 id="audio-book-title" className={styles.title} lang="ml">
+            അദൃശ്യ സമവാക്യം
           </h1>
-          <div className={styles.heroBottom}>
-            <div>
-              <h2 className={styles.malayalam} lang="ml">
-                അദൃശ്യ സമവാക്യം
-              </h2>
-              <p className={styles.dek} lang="ml">
-                കണ്ണടയ്ക്കാം. ഒരു കലാലയത്തിന്റെ കഥകൾ കേൾക്കാം.
-              </p>
-            </div>
-            <div className={styles.heroStats}>
-              <span>
-                <b>66</b> chapters
-              </span>
-              <span>
-                <b>3h 54m</b> of voices
-              </span>
-              <span>Malayalam + English</span>
-            </div>
-          </div>
+          <p className={styles.subtitle}>
+            66 chapters · 3h 54m · Malayalam + English
+          </p>
         </section>
 
         <div className={styles.layout}>
@@ -401,24 +368,20 @@ export default function AudioBookPlayer() {
             aria-labelledby="chapters-title"
           >
             <div className={styles.libraryHeading}>
-              <div>
-                <span className={styles.eyebrow}>The listening room</span>
-                <h2 id="chapters-title">Find your next chapter.</h2>
-              </div>
+              <h2 id="chapters-title">Chapters</h2>
               <span className={styles.chapterCount}>
-                {String(filteredChapters.length).padStart(2, "0")} / 66
+                {filteredChapters.length} / 66
               </span>
             </div>
             <label className={styles.search}>
-              <Search size={17} aria-hidden="true" />
+              <Search size={16} aria-hidden="true" />
               <input
                 type="search"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="A title, an author, a thought…"
+                placeholder="Search by title or author"
                 aria-label="Search chapters by title or author"
               />
-              <span className={styles.searchHint}>ML / EN</span>
             </label>
             <div className={styles.filters} aria-label="Filter chapters">
               {FILTERS.map((item) => (
@@ -434,8 +397,9 @@ export default function AudioBookPlayer() {
               ))}
             </div>
             <div className={styles.listHeader}>
-              <span>Chapter / voice</span>
-              <span>Length</span>
+              <span>#</span>
+              <span>Title</span>
+              <span>Duration</span>
             </div>
             <ol className={styles.chapterList}>
               {filteredChapters.map((item) => {
@@ -454,7 +418,10 @@ export default function AudioBookPlayer() {
                     >
                       <span className={styles.chapterNumber}>
                         {active && playing ? (
-                          <span className={styles.miniWave} aria-hidden="true">
+                          <span
+                            className={styles.miniWave}
+                            aria-hidden="true"
+                          >
                             <i />
                             <i />
                             <i />
@@ -469,19 +436,10 @@ export default function AudioBookPlayer() {
                         </span>
                         <span className={styles.chapterAuthor}>
                           {item.author || item.category}
-                          <span> · </span>
-                          {item.author ? item.category : "അദൃശ്യ സമവാക്യം"}
                         </span>
                       </span>
                       <span className={styles.chapterLength}>
                         {audioTime(item.duration)}
-                      </span>
-                      <span className={styles.rowPlay}>
-                        <Play
-                          size={12}
-                          fill="currentColor"
-                          aria-hidden="true"
-                        />
                       </span>
                     </button>
                     <a
@@ -501,7 +459,7 @@ export default function AudioBookPlayer() {
             {filteredChapters.length === 0 && (
               <div className={styles.empty}>
                 <Search aria-hidden="true" />
-                <p>No chapters found. Try another title or author.</p>
+                <p>No chapters found.</p>
                 <button
                   type="button"
                   onClick={() => {
@@ -509,75 +467,22 @@ export default function AudioBookPlayer() {
                     setFilter("All");
                   }}
                 >
-                  Show all chapters
+                  Show all
                 </button>
               </div>
             )}
-            <div className={styles.libraryNote}>
-              <span>Words travel differently when you listen.</span>
-              <p>
-                Stories and poems stay in their original languages. A Malayalam
-                host brings the journey together.
-              </p>
-            </div>
           </section>
 
           <aside
             className={`${styles.player} ${playing ? styles.isPlaying : ""}`}
             aria-label="Audio player"
           >
-            <div className={styles.playerTop}>
-              <span>
-                <span className={styles.onAirDot} />
-                {playing ? "On air" : "Ready when you are"}
-              </span>
-              <span>VOL. 01</span>
-            </div>
-            <div className={styles.recordWrap} aria-hidden="true">
-              <div className={styles.record}>
-                {GROOVES.map((size) => (
-                  <i
-                    key={size}
-                    className={styles.groove}
-                    style={{ width: `${size}%`, height: `${size}%` }}
-                  />
-                ))}
-                <div className={styles.recordLabel}>
-                  <span>SATHVA</span>
-                  <strong lang="ml">
-                    അദൃശ്യ
-                    <br />
-                    സമവാക്യം
-                  </strong>
-                  <span>VOICES OF THE CAMPUS</span>
-                  <i />
-                </div>
-              </div>
-              <div className={styles.tonearm}>
-                <i />
-              </div>
-            </div>
             <div className={styles.nowPlaying} aria-live="polite">
               <span className={styles.playerKicker}>
-                Chapter {String(chapter.id).padStart(2, "0")}{" "}
-                <span>/ 66 · {chapter.category}</span>
+                {String(chapter.id).padStart(2, "0")} / 66
               </span>
               <h2>{chapter.title}</h2>
-              <p>
-                {chapter.author ||
-                  "Sathva · Government Engineering College Wayanad"}
-              </p>
-            </div>
-            <div className={styles.waveform} aria-hidden="true">
-              {WAVE.map((height, index) => (
-                <span
-                  key={index}
-                  style={{
-                    height: `${height}%`,
-                    animationDelay: `${index * 0.06}s`,
-                  }}
-                />
-              ))}
+              <p>{chapter.author || "Sathva · GEC Wayanad"}</p>
             </div>
             <div className={styles.transport}>
               <button
@@ -593,7 +498,7 @@ export default function AudioBookPlayer() {
                 onClick={() => seek(position - 15)}
                 aria-label="Rewind 15 seconds"
               >
-                <RotateCcw size={23} aria-hidden="true" />
+                <RotateCcw size={22} aria-hidden="true" />
                 <span>15</span>
               </button>
               <button
@@ -616,7 +521,7 @@ export default function AudioBookPlayer() {
                 onClick={() => seek(position + 15)}
                 aria-label="Forward 15 seconds"
               >
-                <RotateCw size={23} aria-hidden="true" />
+                <RotateCw size={22} aria-hidden="true" />
                 <span>15</span>
               </button>
               <button
@@ -639,7 +544,7 @@ export default function AudioBookPlayer() {
                 aria-label="Seek through the audio book"
                 aria-valuetext={`${audioTime(position, true)} of ${audioTime(audioDuration, true)}`}
                 style={{
-                  background: `linear-gradient(to right, #c5a172 ${totalProgress}%, #536057 ${totalProgress}%)`,
+                  background: `linear-gradient(to right, var(--accent) ${totalProgress}%, var(--rule) ${totalProgress}%)`,
                 }}
               />
               <div>
@@ -666,13 +571,6 @@ export default function AudioBookPlayer() {
                   <Volume2 size={17} aria-hidden="true" />
                 )}
               </button>
-              <span>
-                {buffering
-                  ? "Finding the sound…"
-                  : hasSavedPlace && !playing
-                    ? "Your place is saved"
-                    : "Settle in. Stay a while."}
-              </span>
               <label>
                 <span className={styles.srOnly}>Playback speed</span>
                 <select
@@ -701,36 +599,29 @@ export default function AudioBookPlayer() {
                     start();
                   }}
                 >
-                  Retry playback
+                  Retry
                 </button>
               </div>
             )}
             <div className={styles.downloads}>
-              <span>Take the voices with you.</span>
               <a href={audioBookUrl} target="_blank" rel="noopener noreferrer">
-                Full audio <ArrowUpRight size={13} aria-hidden="true" />
+                Stream <ArrowUpRight size={13} aria-hidden="true" />
               </a>
               <a
                 href={audioBookDownloadUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Audiobook <Download size={13} aria-hidden="true" />
+                Download <Download size={13} aria-hidden="true" />
               </a>
             </div>
           </aside>
         </div>
 
         <footer className={styles.footer}>
-          <div>
-            <span>One campus. Many voices.</span>
-            <p>
-              Sathva College Union · Govt. Engineering College, Wayanad ·
-              2025–26
-            </p>
-          </div>
+          <p>Sathva · Govt. Engineering College, Wayanad · 2025–26</p>
           <Link href="/">
-            Return to the magazine <ArrowUpRight size={15} aria-hidden="true" />
+            Magazine <ArrowUpRight size={14} aria-hidden="true" />
           </Link>
         </footer>
       </div>
