@@ -1,0 +1,665 @@
+{
+  "duration": 14028.97,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "അദൃശ്യ സമവാക്യം — സ്വാഗതം",
+      "author": "Sathva College Union",
+      "category": "Opening",
+      "start": 0,
+      "end": 48.04,
+      "duration": 48.04,
+      "asset": "audio-book-01-sec-a.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Voices & Greetings",
+      "author": "",
+      "category": "Opening",
+      "start": 49.04,
+      "end": 233.24,
+      "duration": 184.2,
+      "asset": "audio-book-03-sec-c.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Say No To Drugs",
+      "author": "",
+      "category": "Opening",
+      "start": 234.24,
+      "end": 244.8,
+      "duration": 10.56,
+      "asset": "audio-book-04-say-no-to-drugs.mp3"
+    },
+    {
+      "id": 4,
+      "title": "അദൃശ്യ സമവാക്യം — ആമുഖം",
+      "author": "Adhil Muhammed K (editorial note)",
+      "category": "Opening",
+      "start": 245.8,
+      "end": 416.88,
+      "duration": 171.08,
+      "asset": "audio-book-05-adrishya-bhasha.mp3"
+    },
+    {
+      "id": 5,
+      "title": "ചെറുവയൽ രാമൻ",
+      "author": "മാഗസിൻ ടീം",
+      "category": "Campus",
+      "start": 417.88,
+      "end": 1031.54,
+      "duration": 613.66,
+      "asset": "audio-book-06-cheruvayal-raman.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Time Dilation",
+      "author": "",
+      "category": "Ideas",
+      "start": 1032.54,
+      "end": 1049.62,
+      "duration": 17.08,
+      "asset": "audio-book-07-time-dilation.mp3"
+    },
+    {
+      "id": 7,
+      "title": "Short film — Time Dilation",
+      "author": "Amruthesh B, S7 CSE & Alok Prasad",
+      "category": "Campus",
+      "start": 1050.62,
+      "end": 1080.26,
+      "duration": 29.64,
+      "asset": "audio-book-08-short-film.mp3"
+    },
+    {
+      "id": 8,
+      "title": "ഘടികാരം പറയാത്ത സമയം",
+      "author": "",
+      "category": "Ideas",
+      "start": 1081.26,
+      "end": 1346.3,
+      "duration": 265.04,
+      "asset": "audio-book-09-clock-essay.mp3"
+    },
+    {
+      "id": 9,
+      "title": "ടിക്... ടിക്...",
+      "author": "Avani Manoj",
+      "category": "Poetry",
+      "start": 1347.3,
+      "end": 1414.1,
+      "duration": 66.8,
+      "asset": "audio-book-10-tick-tick-tick.mp3"
+    },
+    {
+      "id": 10,
+      "title": "Version Zero",
+      "author": "Zephanah Elizabeth",
+      "category": "Stories",
+      "start": 1415.1,
+      "end": 1531.3,
+      "duration": 116.2,
+      "asset": "audio-book-11-version-zero.mp3"
+    },
+    {
+      "id": 11,
+      "title": "Writing in the Era of AI",
+      "author": "Fathima Aslam",
+      "category": "Ideas",
+      "start": 1532.3,
+      "end": 1722.22,
+      "duration": 189.92,
+      "asset": "audio-book-12-writing-era-ai.mp3"
+    },
+    {
+      "id": 12,
+      "title": "മണം",
+      "author": "Zephanah Elizabeth",
+      "category": "Stories",
+      "start": 1723.22,
+      "end": 2011.35,
+      "duration": 288.13,
+      "asset": "audio-book-13-manam.mp3"
+    },
+    {
+      "id": 13,
+      "title": "She’d Be Proud",
+      "author": "Nivedya",
+      "category": "Poetry",
+      "start": 2012.35,
+      "end": 2110.99,
+      "duration": 98.64,
+      "asset": "audio-book-14-shed-be-proud.mp3"
+    },
+    {
+      "id": 14,
+      "title": "തെയ്യം",
+      "author": "Asika K",
+      "category": "Ideas",
+      "start": 2111.99,
+      "end": 2319.52,
+      "duration": 207.53,
+      "asset": "audio-book-15-theyyam.mp3"
+    },
+    {
+      "id": 15,
+      "title": "Kali — The Black Goddess",
+      "author": "Arjun Krishna",
+      "category": "Stories",
+      "start": 2320.52,
+      "end": 3797.78,
+      "duration": 1477.26,
+      "asset": "audio-book-16-kali-story.mp3"
+    },
+    {
+      "id": 16,
+      "title": "Ruining Rumours",
+      "author": "Niba Nasrin",
+      "category": "Stories",
+      "start": 3798.78,
+      "end": 4379.09,
+      "duration": 580.31,
+      "asset": "audio-book-17-ruining-rumours.mp3"
+    },
+    {
+      "id": 17,
+      "title": "അഗാധതയുടെ അപ്പുറം",
+      "author": "",
+      "category": "Ideas",
+      "start": 4380.09,
+      "end": 4620.98,
+      "duration": 240.89,
+      "asset": "audio-book-18-thamodwaram.mp3"
+    },
+    {
+      "id": 18,
+      "title": "Short film — Black Hole",
+      "author": "Amruthesh B, S7 CSE & Alok Prasad",
+      "category": "Campus",
+      "start": 4621.98,
+      "end": 4649.06,
+      "duration": 27.08,
+      "asset": "audio-book-19-short-film.mp3"
+    },
+    {
+      "id": 19,
+      "title": "സോഷ്യൽ മീഡിയ, സാധ്യതയോ ബാധ്യതയോ...?",
+      "author": "Adharsh . P",
+      "category": "Ideas",
+      "start": 4650.06,
+      "end": 4946.35,
+      "duration": 296.29,
+      "asset": "audio-book-20-social-media.mp3"
+    },
+    {
+      "id": 20,
+      "title": "The Curse of Hope",
+      "author": "Nivedya A",
+      "category": "Poetry",
+      "start": 4947.35,
+      "end": 5082.15,
+      "duration": 134.8,
+      "asset": "audio-book-21-curse-of-hope.mp3"
+    },
+    {
+      "id": 21,
+      "title": "ഒരു മുടന്തൻ പറഞ്ഞ കഥ",
+      "author": "സിഫ്ന അമീഷ വി . കെ",
+      "category": "Stories",
+      "start": 5083.15,
+      "end": 5354.92,
+      "duration": 271.77,
+      "asset": "audio-book-22-oru-mudanthan.mp3"
+    },
+    {
+      "id": 22,
+      "title": "Stitched Wings",
+      "author": "Sreya Raghavan",
+      "category": "Poetry",
+      "start": 5355.92,
+      "end": 5417.24,
+      "duration": 61.32,
+      "asset": "audio-book-23-stitched-wings.mp3"
+    },
+    {
+      "id": 23,
+      "title": "സ്ത്രീധനം: പുരോഗതിയുടെ മറവിലെ പഴഞ്ചൻ ചങ്ങല",
+      "author": "അഹമ്മദ് ഷഹീർ",
+      "category": "Ideas",
+      "start": 5418.24,
+      "end": 5609.6,
+      "duration": 191.36,
+      "asset": "audio-book-24-dowry.mp3"
+    },
+    {
+      "id": 24,
+      "title": "Humanity Beyond War",
+      "author": "Saliha vk",
+      "category": "Poetry",
+      "start": 5610.6,
+      "end": 5725.72,
+      "duration": 115.12,
+      "asset": "audio-book-25-humanity-beyond-war.mp3"
+    },
+    {
+      "id": 25,
+      "title": "ജലരേഖകൾ",
+      "author": "അനഘ ടി. ജെ",
+      "category": "Poetry",
+      "start": 5726.72,
+      "end": 5828.24,
+      "duration": 101.52,
+      "asset": "audio-book-26-waterlines.mp3"
+    },
+    {
+      "id": 26,
+      "title": "ഇരുട്ട്",
+      "author": "അനിരുദ്ധ് പി. ഡി",
+      "category": "Ideas",
+      "start": 5829.24,
+      "end": 5969.12,
+      "duration": 139.88,
+      "asset": "audio-book-27-iruttu.mp3"
+    },
+    {
+      "id": 27,
+      "title": "നന്മയുടെ പൂമൊട്ടുകൾ",
+      "author": "ഏൽദോ പോൾ ഷാജൻ",
+      "category": "Poetry",
+      "start": 5970.12,
+      "end": 6029.96,
+      "duration": 59.84,
+      "asset": "audio-book-28-nanmayude.mp3"
+    },
+    {
+      "id": 28,
+      "title": "The Girl Who Dances",
+      "author": "Ashtami Chandran",
+      "category": "Poetry",
+      "start": 6030.96,
+      "end": 6169.8,
+      "duration": 138.84,
+      "asset": "audio-book-29-the-girl-who-dances.mp3"
+    },
+    {
+      "id": 29,
+      "title": "യുദ്ധത്തിന്റെ നിഴലിൽ",
+      "author": "ഹാദിൻ മുഹമ്മദ്",
+      "category": "Poetry",
+      "start": 6170.8,
+      "end": 6285.96,
+      "duration": 115.16,
+      "asset": "audio-book-30-shadow-of-war.mp3"
+    },
+    {
+      "id": 30,
+      "title": "Wormhole — ശാസ്ത്രസേതു",
+      "author": "",
+      "category": "Ideas",
+      "start": 6286.96,
+      "end": 6316.2,
+      "duration": 29.24,
+      "asset": "audio-book-31-wormhole.mp3"
+    },
+    {
+      "id": 31,
+      "title": "വിശദദ്വാരം",
+      "author": "",
+      "category": "Stories",
+      "start": 6317.2,
+      "end": 6421.84,
+      "duration": 104.64,
+      "asset": "audio-book-32-wormhole-story.mp3"
+    },
+    {
+      "id": 32,
+      "title": "പ്രപഞ്ചത്തിന്റെ കുറുക്കുവഴി",
+      "author": "",
+      "category": "Ideas",
+      "start": 6422.84,
+      "end": 6549.32,
+      "duration": 126.48,
+      "asset": "audio-book-33-wormhole-essay.mp3"
+    },
+    {
+      "id": 33,
+      "title": "മഞ്ഞിറങ്ങിയ വഴികൾ",
+      "author": "അഞ്ജലി കൃഷ്ണ",
+      "category": "Stories",
+      "start": 6550.32,
+      "end": 6813.89,
+      "duration": 263.57,
+      "asset": "audio-book-34-misty-paths-story.mp3"
+    },
+    {
+      "id": 34,
+      "title": "മഞ്ഞിറങ്ങിയ വഴികൾ — ഓർമ്മവാക്കുകൾ",
+      "author": "അഞ്ജലി കൃഷ്ണ",
+      "category": "Stories",
+      "start": 6814.89,
+      "end": 6858.85,
+      "duration": 43.96,
+      "asset": "audio-book-35-misty-paths.mp3"
+    },
+    {
+      "id": 35,
+      "title": "ലാസ്റ്റ് ബെഞ്ച്",
+      "author": "അഞ്ജലി കൃഷ്ണ",
+      "category": "Stories",
+      "start": 6859.85,
+      "end": 7000.09,
+      "duration": 140.24,
+      "asset": "audio-book-36-last-bench.mp3"
+    },
+    {
+      "id": 36,
+      "title": "Roots & Wings",
+      "author": "Zephanah Elizabeth",
+      "category": "Poetry",
+      "start": 7001.09,
+      "end": 7157.85,
+      "duration": 156.76,
+      "asset": "audio-book-37-roots-and-wings.mp3"
+    },
+    {
+      "id": 37,
+      "title": "Chip Happens",
+      "author": "Muhammed Mashhood K",
+      "category": "Ideas",
+      "start": 7158.85,
+      "end": 7407.94,
+      "duration": 249.09,
+      "asset": "audio-book-38-chip-happens.mp3"
+    },
+    {
+      "id": 38,
+      "title": "Quantum Entanglement — ശാസ്ത്രസേതു",
+      "author": "",
+      "category": "Ideas",
+      "start": 7408.94,
+      "end": 7433.74,
+      "duration": 24.8,
+      "asset": "audio-book-39-quantum-entanglement.mp3"
+    },
+    {
+      "id": 39,
+      "title": "ബന്ധങ്ങളുടെ അദൃശ്യനൂൽ",
+      "author": "",
+      "category": "Ideas",
+      "start": 7434.74,
+      "end": 7733.19,
+      "duration": 298.45,
+      "asset": "audio-book-40-quantum-entanglement-story.mp3"
+    },
+    {
+      "id": 40,
+      "title": "In Their Image",
+      "author": "Fathima Aslam",
+      "category": "Poetry",
+      "start": 7734.19,
+      "end": 7801.63,
+      "duration": 67.44,
+      "asset": "audio-book-41-in-their-image.mp3"
+    },
+    {
+      "id": 41,
+      "title": "വെളിച്ചത്തിൻ്റെ വിത്തുകൾ",
+      "author": "മുഹമ്മദ് സിനാൻ ഇ",
+      "category": "Stories",
+      "start": 7802.63,
+      "end": 8117.49,
+      "duration": 314.86,
+      "asset": "audio-book-42-seeds-of-light.mp3"
+    },
+    {
+      "id": 42,
+      "title": "അച്ഛൻ",
+      "author": "പൂർണിമ എ",
+      "category": "Poetry",
+      "start": 8118.49,
+      "end": 8208.85,
+      "duration": 90.36,
+      "asset": "audio-book-43-father-poem.mp3"
+    },
+    {
+      "id": 43,
+      "title": "Bloodless Religion",
+      "author": "Navya John",
+      "category": "Poetry",
+      "start": 8209.85,
+      "end": 8301.81,
+      "duration": 91.96,
+      "asset": "audio-book-44-bloodless-religion.mp3"
+    },
+    {
+      "id": 44,
+      "title": "ക്യാമ്പസിലെ അവസാന മരം",
+      "author": "ആദർഷ് പി",
+      "category": "Stories",
+      "start": 8302.81,
+      "end": 8524.98,
+      "duration": 222.17,
+      "asset": "audio-book-45-last-tree.mp3"
+    },
+    {
+      "id": 45,
+      "title": "The Promise We Must Keep",
+      "author": "Rebekka Mathew",
+      "category": "Poetry",
+      "start": 8525.98,
+      "end": 8677.62,
+      "duration": 151.64,
+      "asset": "audio-book-46-promise-we-must-keep.mp3"
+    },
+    {
+      "id": 46,
+      "title": "Art & Expression",
+      "author": "",
+      "category": "Campus",
+      "start": 8678.62,
+      "end": 8926.58,
+      "duration": 247.96,
+      "asset": "audio-book-47-artworks-gallery.mp3"
+    },
+    {
+      "id": 47,
+      "title": "കോളേജിന്റെ അദൃശ്യ നായകർ",
+      "author": "",
+      "category": "Campus",
+      "start": 8927.58,
+      "end": 9086.7,
+      "duration": 159.12,
+      "asset": "audio-book-48-non-teaching-staff.mp3"
+    },
+    {
+      "id": 48,
+      "title": "Decibel",
+      "author": "",
+      "category": "Campus",
+      "start": 9087.7,
+      "end": 9400.06,
+      "duration": 312.36,
+      "asset": "audio-book-49-decibel.mp3"
+    },
+    {
+      "id": 49,
+      "title": "Drawing Club",
+      "author": "",
+      "category": "Campus",
+      "start": 9401.06,
+      "end": 9493.98,
+      "duration": 92.92,
+      "asset": "audio-book-50-drawing-club.mp3"
+    },
+    {
+      "id": 50,
+      "title": "Iliad Literature Club",
+      "author": "",
+      "category": "Campus",
+      "start": 9494.98,
+      "end": 9680.06,
+      "duration": 185.08,
+      "asset": "audio-book-51-iliad-literature-club.mp3"
+    },
+    {
+      "id": 51,
+      "title": "Monochrome Film & Creative Arts Club",
+      "author": "",
+      "category": "Campus",
+      "start": 9681.06,
+      "end": 9842.62,
+      "duration": 161.56,
+      "asset": "audio-book-52-monochrome-film-club.mp3"
+    },
+    {
+      "id": 52,
+      "title": "NSS Units 168 & 263",
+      "author": "",
+      "category": "Campus",
+      "start": 9843.62,
+      "end": 10096.14,
+      "duration": 252.52,
+      "asset": "audio-book-53-nss.mp3"
+    },
+    {
+      "id": 53,
+      "title": "IEEE Student Branch",
+      "author": "",
+      "category": "Campus",
+      "start": 10097.14,
+      "end": 10824.24,
+      "duration": 727.1,
+      "asset": "audio-book-54-ieee.mp3"
+    },
+    {
+      "id": 54,
+      "title": "ISTE Student Chapter",
+      "author": "",
+      "category": "Campus",
+      "start": 10825.24,
+      "end": 11021.73,
+      "duration": 196.49,
+      "asset": "audio-book-55-iste.mp3"
+    },
+    {
+      "id": 55,
+      "title": "EXORQUE",
+      "author": "",
+      "category": "Campus",
+      "start": 11022.73,
+      "end": 11299.02,
+      "duration": 276.29,
+      "asset": "audio-book-56-exorque.mp3"
+    },
+    {
+      "id": 56,
+      "title": "SAE",
+      "author": "",
+      "category": "Campus",
+      "start": 11300.02,
+      "end": 11482.34,
+      "duration": 182.32,
+      "asset": "audio-book-57-sae.mp3"
+    },
+    {
+      "id": 57,
+      "title": "GBOT",
+      "author": "",
+      "category": "Campus",
+      "start": 11483.34,
+      "end": 11765.67,
+      "duration": 282.33,
+      "asset": "audio-book-58-gbot.mp3"
+    },
+    {
+      "id": 58,
+      "title": "Orion GECW",
+      "author": "",
+      "category": "Campus",
+      "start": 11766.67,
+      "end": 11967.19,
+      "duration": 200.52,
+      "asset": "audio-book-59-orion.mp3"
+    },
+    {
+      "id": 59,
+      "title": "Aeronauts",
+      "author": "",
+      "category": "Campus",
+      "start": 11968.19,
+      "end": 12156.76,
+      "duration": 188.57,
+      "asset": "audio-book-60-aeronauts.mp3"
+    },
+    {
+      "id": 60,
+      "title": "IEDC",
+      "author": "",
+      "category": "Campus",
+      "start": 12157.76,
+      "end": 12276.84,
+      "duration": 119.08,
+      "asset": "audio-book-61-iedc.mp3"
+    },
+    {
+      "id": 61,
+      "title": "Bhoomithra Sena",
+      "author": "",
+      "category": "Campus",
+      "start": 12277.84,
+      "end": 12531.53,
+      "duration": 253.69,
+      "asset": "audio-book-62-bhoomithra-sena.mp3"
+    },
+    {
+      "id": 62,
+      "title": "ത്രൈവ്",
+      "author": "",
+      "category": "Campus",
+      "start": 12532.53,
+      "end": 12741.69,
+      "duration": 209.16,
+      "asset": "audio-book-63-thrive.mp3"
+    },
+    {
+      "id": 63,
+      "title": "Student Projects",
+      "author": "",
+      "category": "Campus",
+      "start": 12742.69,
+      "end": 13026.54,
+      "duration": 283.85,
+      "asset": "audio-book-64-student-projects.mp3"
+    },
+    {
+      "id": 64,
+      "title": "Sports 2025–26",
+      "author": "",
+      "category": "Campus",
+      "start": 13027.54,
+      "end": 13152.62,
+      "duration": 125.08,
+      "asset": "audio-book-65-sports.mp3"
+    },
+    {
+      "id": 65,
+      "title": "Sathva College Union",
+      "author": "",
+      "category": "Campus",
+      "start": 13153.62,
+      "end": 13927.09,
+      "duration": 773.47,
+      "asset": "audio-book-66-sathva.mp3"
+    },
+    {
+      "id": 66,
+      "title": "One Year, Many Voices",
+      "author": "",
+      "category": "Campus",
+      "start": 13928.09,
+      "end": 14028.97,
+      "duration": 100.88,
+      "asset": "audio-book-67-closing.mp3"
+    }
+  ]
+}

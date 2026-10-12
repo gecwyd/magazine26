@@ -2,6 +2,9 @@ const GITHUB_RELEASE_BASE = "https://github.com/gecwyd/magazine26/releases/downl
 const GITHUB_RELEASE_V2_BASE = "https://github.com/gecwyd/magazine26/releases/download/v0.2-assets"
 
 const ASSET_MAP: Record<string, string> = {
+  "adrishya-samavakyam-complete.m4a": `${GITHUB_RELEASE_V2_BASE}/adrishya-samavakyam-complete.m4a`,
+  "adrishya-samavakyam-complete.mp3": `${GITHUB_RELEASE_V2_BASE}/adrishya-samavakyam-complete.mp3`,
+  "adrishya-samavakyam-audiobook.m4b": `${GITHUB_RELEASE_V2_BASE}/adrishya-samavakyam-audiobook.m4b`,
   "say-no-to-drugs-icon.webp": `${GITHUB_RELEASE_V2_BASE}/say-no-to-drugs-icon.webp`,
   "adrishya-bhasha-hero.webp": `${GITHUB_RELEASE_V2_BASE}/adrishya-bhasha-hero.webp`,
   "adrishya-bhasha-thread.webp": `${GITHUB_RELEASE_V2_BASE}/adrishya-bhasha-thread.webp`,

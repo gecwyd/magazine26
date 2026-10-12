@@ -1,6 +1,8 @@
 "use client"
 
 import * as React from "react"
+import Link from "next/link"
+import { Headphones } from "lucide-react"
 import { DriveImage } from "@/components/ui/drive-image"
 import { cn } from "@/lib/utils"
 import { preload } from "@/lib/preload"
@@ -13,7 +15,7 @@ const LOCATION = "WAYANAD"
 const TAGLINE = "GECW  /  KERALA"
 const ESTABLISHED_YEAR = "EST. 1999"
 
-export interface SecAProps extends React.HTMLAttributes<HTMLElement> { }
+export type SecAProps = React.HTMLAttributes<HTMLElement>
 
 export function SecA({ className, ...props }: SecAProps) {
   return (
@@ -53,7 +55,13 @@ export function SecA({ className, ...props }: SecAProps) {
 
         <header className="absolute top-0 left-0 w-full p-8 md:p-12 z-50 flex justify-between items-center text-white/60">
           <span className="font-bold text-[10px] md:text-xs tracking-[0.4em] uppercase">{TAGLINE}</span>
-          <span className="font-bold text-[10px] md:text-xs tracking-[0.4em] uppercase">{ESTABLISHED_YEAR}</span>
+          <div className="flex items-center gap-5 sm:gap-8">
+            <Link href="/audio-book" className="inline-flex items-center gap-2 rounded-full border border-white/35 bg-black/20 px-4 py-2.5 text-[10px] font-medium tracking-[0.12em] text-white transition-colors hover:bg-white hover:text-black focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">
+              <Headphones className="h-3.5 w-3.5" aria-hidden="true" />
+              Audio Book
+            </Link>
+            <span className="hidden sm:inline font-bold text-[10px] md:text-xs tracking-[0.4em] uppercase">{ESTABLISHED_YEAR}</span>
+          </div>
         </header>
 
         <div className="relative z-10 flex flex-col items-center text-center px-6">
