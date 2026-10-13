@@ -27,8 +27,8 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "Adhrshya Samavakyam Magazine26",
-  description: "Government Engineering College Wayanad - Adhrshya Samavakyam / Magazine 26",
+  title: "Adrishya Samavakyam Magazine26",
+  description: "Government Engineering College Wayanad - Adrishya Samavakyam / Magazine 26",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -49,7 +49,7 @@ const LOG = [
   },
   {
     label: "Outreach",
-    body: "Outreach programs carried the club's work beyond campus, to local high school students.",
+    body: "Outreach programmes carried the club's work beyond campus, to local high school students.",
   },
   {
     label: "Knowledge Exchange",

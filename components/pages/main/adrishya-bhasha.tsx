@@ -455,7 +455,7 @@ export function AdrishyaBhasha() {
             className={cn(retroMono.className, "text-[9px] uppercase tracking-[0.4em] text-[#c9a56b]/40")}
             style={{ writingMode: "vertical-rl" }}
           >
-            Adhrishya Samavakyam
+            Adrishya Samavakyam
           </span>
           <div className="relative h-40 w-px bg-[#c9a56b]/15">
             <motion.span

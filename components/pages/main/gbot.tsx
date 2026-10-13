@@ -47,7 +47,7 @@ const EVENTS = [
   {
     date: "20–27 Mar 2024",
     title: "Exhibition at Valliyoorkavu",
-    body: "The club organized an exhibition at Valliyoorkavu Exhibition Hall, showcasing projects such as Human Follower, Line Follower, Robotic Arm and an Interactive Game.",
+    body: "The club organised an exhibition at Valliyoorkavu Exhibition Hall, showcasing projects such as Human Follower, Line Follower, Robotic Arm and an Interactive Game.",
   },
   {
     date: "8 Apr 2024",

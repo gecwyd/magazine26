@@ -44,7 +44,7 @@ const EVENTS = [
     no: "02",
     lap: "13 Mar 2026",
     title: "“Find a Solution” Challenge",
-    body: "The chapter organized the “Find a Solution” Challenge for first-year SAE members. The event encouraged students to approach engineering problems creatively and develop innovative solutions through teamwork and brainstorming.",
+    body: "The chapter organised the “Find a Solution” Challenge for first-year SAE members. The event encouraged students to approach engineering problems creatively and develop innovative solutions through teamwork and brainstorming.",
   },
   {
     no: "03",
@@ -56,7 +56,7 @@ const EVENTS = [
     no: "04",
     lap: "27 Mar 2026",
     title: "Farewell 2026 – Drive Out",
-    body: "The academic year concluded with “Farewell 2026 – Drive Out”, organized in association with the Exorque Club. The programme brought together juniors and seniors through games, cultural performances, experience sharing and informal interactions.",
+    body: "The academic year concluded with “Farewell 2026 – Drive Out”, organised in association with the Exorque Club. The programme brought together juniors and seniors through games, cultural performances, experience sharing and informal interactions.",
   },
 ] as const;
 

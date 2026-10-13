@@ -16,7 +16,7 @@ const serif = Instrument_Serif({
 const POEM_STANZAS = [
   "A dawn once broke with hope anew,\nAs freedom’s dream at last came true.\nA timeless charter, a solemn pledge,\nWhere justice found its rightful place.",
   "Yet tell me, have we learned at last\nTo heal the wounds our choices cast?\nTo guard the forests, skies, and seas,\nAnd cherish every swaying tree?",
-  "We charred the forests, dimmed the skies,\nLeft rivers parched before our eyes.\nWe turned from neighbors, nursed our pride,\nWhile silent grief we chose to hide.",
+  "We charred the forests, dimmed the skies,\nLeft rivers parched before our eyes.\nWe turned from neighbours, nursed our pride,\nWhile silent grief we chose to hide.",
   "When envy speaks where kindness should,\nAnd greed outweighs the common good,\nWe struggle, strive, and seek to claim\nA fleeting crown, an empty name.",
   "Yet where is trust in human hearts?\nThe bond that holds a people fast?\nFraternity is not mere sound,\nBut love that lifts and gathers round.",
   "It shines through every hand we raise,\nIn hearts that choose compassion over praise.",

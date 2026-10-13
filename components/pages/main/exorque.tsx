@@ -58,7 +58,7 @@ const CHAPTERS: {
     title: "3-D Printing Workshop",
     date: "6 Aug 2025",
     venue: "ASAP Hall",
-    body: "A one-day 3D Printing Workshop was organized on August 6, 2025, at ASAP Hall. The workshop introduced students to additive manufacturing, different 3D printing technologies, materials and real-world applications. Participants learned the complete process from CAD modelling and slicing to actual printing and post-processing. Using SolidWorks and Creality Slicer, students created simple models and experienced the complete workflow through a live demonstration. With 38 students participating, the workshop provided an engaging blend of theory and hands-on learning.",
+    body: "A one-day 3D Printing Workshop was organised on August 6, 2025, at ASAP Hall. The workshop introduced students to additive manufacturing, different 3D printing technologies, materials and real-world applications. Participants learned the complete process from CAD modelling and slicing to actual printing and post-processing. Using SolidWorks and Creality Slicer, students created simple models and experienced the complete workflow through a live demonstration. With 38 students participating, the workshop provided an engaging blend of theory and hands-on learning.",
     photos: [
       { id: "exorque-3d-1", alt: "Students listening to the 3D printing workshop session" },
       { id: "exorque-3d-2", alt: "Trainer explaining the 3D printing workflow at a display screen" },

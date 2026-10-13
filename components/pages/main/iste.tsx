@@ -187,7 +187,7 @@ export function Iste() {
               <span className="block text-[color:var(--accent)]">actually does</span>
             </h3>
             <p className="mt-6 max-w-sm text-[15px] leading-[1.8] text-[color:var(--muted)]">
-              ISTE isn’t a one-off event or a single workshop; it’s a year-round chapter that organizes a mix of
+              ISTE isn’t a one-off event or a single workshop; it’s a year-round chapter that organises a mix of
               activities designed to build real, usable skills alongside your regular classes.
             </p>
           </Reveal>
