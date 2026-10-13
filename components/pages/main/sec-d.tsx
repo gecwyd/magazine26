@@ -177,7 +177,7 @@ export function SecD() {
             className="mt-6 mb-10 max-w-xl"
           >
             <p className="text-[#d4c89a]/75 font-mono text-xs md:text-sm tracking-[0.15em] uppercase leading-relaxed">
-              Reach thousands of students, faculty & alumni of Government Engineering College Wayanad through Adhrysha Samavakyam
+              Reach thousands of students, faculty & alumni of Government Engineering College Wayanad through Adrishya Samavakyam
             </p>
           </motion.div>
 

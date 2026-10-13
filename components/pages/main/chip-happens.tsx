@@ -18,7 +18,7 @@ const CHIP_PARTS = [
   },
   {
     title: "The Progress",
-    text: "It all began with the realization that silicon is the new oil. The development of modern society will boost only by electronic and tech self-reliance. At the infant stage, India was heavily reliant on imports. But today, the nation is steadily emerging as a global semiconductor hub, with the domestic market expected to reach $100–110 billion by 2030.",
+    text: "It all began with the realisation that silicon is the new oil. The development of modern society will boost only by electronic and tech self-reliance. At the infant stage, India was heavily reliant on imports. But today, the nation is steadily emerging as a global semiconductor hub, with the domestic market expected to reach $100–110 billion by 2030.",
     image: resolveAsset("chip-3.png")
   },
   {
@@ -33,7 +33,7 @@ const CHIP_PARTS = [
   },
   {
     title: "Opportunities",
-    text: "For engineering aspirants looking to contribute to this booming industry, several organizations and government portals offer hands-on training:\n\n• Semi-Conductor Laboratory (SCL): Located in Punjab, SCL offers project work and internships to engineering students in fields like Microelectronics and Semiconductor Physics.\n\n• NMOS Systems & Semiconductors Ltd: Accepts final-semester engineering interns for specialized training in Semiconductor/Embedded design and ASIC Verification.\n\n• ISM UNIV: Provides 45-hour free internship training programs focusing on practical, project-based Embedded System Development.",
+    text: "For engineering aspirants looking to contribute to this booming industry, several organisations and government portals offer hands-on training:\n\n• Semi-Conductor Laboratory (SCL): Located in Punjab, SCL offers project work and internships to engineering students in fields like Microelectronics and Semiconductor Physics.\n\n• NMOS Systems & Semiconductors Ltd: Accepts final-semester engineering interns for specialized training in Semiconductor/Embedded design and ASIC Verification.\n\n• ISM UNIV: Provides 45-hour free internship training programs focusing on practical, project-based Embedded System Development.",
     image: resolveAsset("chip-1.png")
   },
   {

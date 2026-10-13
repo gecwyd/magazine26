@@ -98,7 +98,7 @@ const FRAMES = [
   },
   {
     label: "Sessions",
-    text: "The club also organized technical sessions on video editing, camera handling, lighting and sound design.",
+    text: "The club also organised technical sessions on video editing, camera handling, lighting and sound design.",
   },
   {
     label: "Contests",

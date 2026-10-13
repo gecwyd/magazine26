@@ -72,7 +72,7 @@ const DIGNITARIES: DignitaryItem[] = [
     name: "Anas M. M.",
     title: "Staff Magazine Editor",
     category: "Staff Editor's Note",
-    message: "‘Adhrysha Samavakyam’ is an intuitive journey into the mysteries of the universe and time, making concepts like time dilation, quantum entanglement, and wormholes accessible alongside student creativity and shared memories. May it inspire curiosity and wonder in every reader.",
+    message: "‘Adrishya Samavakyam’ is an intuitive journey into the mysteries of the universe and time, making concepts like time dilation, quantum entanglement, and wormholes accessible alongside student creativity and shared memories. May it inspire curiosity and wonder in every reader.",
     image: resolveAsset("anas.webp"),
     initials: "AMM",
   },
